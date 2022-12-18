@@ -1,0 +1,348 @@
+h1{
+    color: red;
+}
+h2{
+    color: black;
+}
+
+/* row*/
+
+#row{
+    background-color: yellow;
+    padding: 1rem;
+    display: flex;
+    
+}
+  .box{
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    color: aqua;
+    width: 3rem;
+    height: 3rem;
+  }
+  /*column*/
+  #column{
+    background-color: yellow;
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  
+  
+  .column{
+    background-color: aqua;
+    
+    margin: 2rem;
+    padding: 2rem;
+    color: blueviolet;
+    width: 3rem;
+    height: 3rem;
+  }
+  /*rowreverse*/
+  #rowreverse{
+    background-color: yellow;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+
+
+  }
+  .rowreverse{
+    background-color: yeiiowgreen;
+    
+    margin: 2rem;
+    padding: 2rem;
+    color: red;
+    width: 3rem;
+    height: 3rem;
+  }
+  /*columnreverse*/
+
+  #columnreverse{
+    background-color: yellow;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column-reverse;
+
+
+  }
+  .columnreverse{
+    background-color: black;
+    
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+
+/* justify-content:row*/
+  
+
+
+  #spacearound{
+    background-color: yellow;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+
+
+  }
+  .spacearound{
+    background-color: black;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+
+
+  #spaceevenly{
+    background-color: yellow;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+
+
+  }
+  .spaceevenly{
+    background-color: black;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  #spacebetween{
+    background-color: yellow;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+
+  }
+  .spacebetween{
+    background-color: black;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+  /* justify-content:column*/
+
+
+  #columnspacearound{
+    background-color: yellow;
+    padding: 2rem;
+    display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   
+   }
+
+
+  .columnspacearound{
+    background-color: black;
+     margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+
+
+  #columnspaceevenly{
+    background-color: yellow;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+
+  }
+  .columnspaceevenly{
+    background-color: black;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  #columnspacebetween{
+    background-color: yellow;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+  }
+  .columnspacebetween{
+    background-color: black;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+  /*algin-iterm*/
+
+
+  #alginflexstart{
+    background-color: yellow;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+   
+
+
+   }
+
+
+  .alginflexstart{
+    background-color: black;
+     margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+
+
+  #algincenter{
+    background-color: yellow;
+    height: auto;
+    width: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .algincenter{
+    background-color: black;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    
+  }
+
+  #alginflexend{
+    background-color: yellow;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   align-items: flex-end;
+   
+
+  }
+  .alginflexend{
+    background-color: black;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    
+  }
+  
+  #rowalginflexstart{
+    background-color: yellow;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+   
+
+
+   }
+
+
+  .rowalginflexstart{
+    background-color: black;
+     margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+
+
+  #rowalgincenter{
+    background-color: yellow;
+    height: auto;
+    width: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .rowalgincenter{
+    background-color: black;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    
+  }
+
+  #rowalginflexend{
+    background-color: yellow;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+   align-items: flex-end;
+  }
+  .rowalginflexend{
+    background-color: black;
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+  }
+    
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+ 

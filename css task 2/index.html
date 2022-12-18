@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+
+        #parent,#parent2,#parent3{
+            background-color: red;
+        }
+        #parent p{
+            background-color: blue;
+        }
+        #parent2 > p{
+            background-color: aqua;
+        }
+        #parent2 + h1{
+            background-color:purple !important;
+        }
+            #parent2 ~ h1{
+            background-color: blueviolet;
+            }
+            #google{
+                background-color: red;
+            }
+            #sudeo{
+                background-color: white;
+                fist
+            }
+            #sudeo > p::first-line{
+                background-color: red;
+            }
+
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, quidem!</p>
+       <h1>hello</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, magni.</p>
+       
+</div>
+    <div id="parent2">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, quidem!</p>
+       <h1>hello</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, magni.</p>
+       <span> <p>Lorem ipsum dolor sit amet.</p>
+       </span>
+
+    </div>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <h1>hello</h1>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+
+        <hr />
+        <h2>Psuedo & Element</h2>
+        <a href="#">google</a>
+        <a href="#" id="google">facebook</a>
+        <a href="#">instagram</a>
+        <a href="#">meta</a>
+        <p id="sudeo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, modi qui nostrum quisquam animi ipsa magni tempora illo perspiciatis ducimus sunt sint ab suscipit nam quas illum repudiandae deserunt velit recusandae. Explicabo, ab ex adipisci quos illum dolores minima consectetur deleniti id asperiores expedita dignissimos officia earum vitae, architecto laboriosam provident soluta ut? Maxime assumenda dolorem laboriosam id ducimus eum autem soluta, ipsa qui alias aperiam voluptatum fugit recusandae porro voluptates repellat, iusto animi, placeat architecto at debitis facilis fugiat? Excepturi exercitationem deleniti earum laudantium reprehenderit ducimus nesciunt itaque quod delectus tempora, eos blanditiis suscipit quam in enim adipisci alias?</p>
+        
+        
+       
+       
+    
+</body>
+</html>

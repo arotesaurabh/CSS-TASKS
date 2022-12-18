@@ -1,0 +1,112 @@
+body{
+    background-color: yellowgreen;
+}
+#heading1{
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+#heading2{
+
+    font-family: 'Rubik Distressed', cursive;
+
+   }
+#heading3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+p{
+    font-weight: 1000;
+    font-family: monospace;
+
+
+}
+.box{
+    width: 10rem;
+    height: 10rem;
+    background-color: red;
+    border: 2px solid green;
+}
+#box1 {
+    position: relative;
+    background-color: aqua;
+    z-index: 5;
+}
+#box2 {
+    position: relative;
+    background-color: blueviolet;
+    margin-top: -5rem;
+    margin-left: 5rem;
+    z-index: 3;
+
+}
+#box3 {
+    position: relative;
+    background-color: orangered;
+    margin:3rem;
+    border: 2px solid black;
+    min-width: 30vw;
+    min-height: 30vh;
+    
+    
+
+}
+#heading4{
+    background-color: blueviolet;
+    display: inline;
+}
+#link2{
+    background-color: orangered;
+    display: block;
+
+    height: 5rem;
+
+}
+#link3{
+    background-color: cadetblue;
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+}
+#link4{
+    display: none;
+}
+.card{
+    background-color: aqua;
+}
+#relative{
+    background-color: beige;
+    position: relative;
+    bottom: 5.5rem;
+    left: 76rem;
+}
+#absolute{
+    background-color: brown;
+    top: 1rem;
+    right: 1rem;
+}
+#card2{
+    position: relative;
+}
+#whatsapp{
+    background-color: green;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    cursor: pointer;
+    
+}
+#whatsapp:hover{
+    background-color: green;
+}
+#sticky{
+    background-color: red;
+    position: sticky;
+    top: 5rem;
+}
+
+   
+   
